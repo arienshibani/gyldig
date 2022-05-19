@@ -1,6 +1,6 @@
 # Gyldig 1.0
 
-An all-in-one package, for validating various Norwegian government identification numbers (fødselsnummer, organisasjonsnummer, kontonummer, etc.)
+Validates Norwegian SSN (fødselsnummer) or OrgNr's on the fly.
 
 ## Install
 
