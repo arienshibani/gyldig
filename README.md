@@ -8,7 +8,7 @@ An all-in-one package, for validating various Norwegian government identificatio
 
 ## Usage
 
-Validate the org/fødselsnummer on the fly!
+Simply pass the value you want to validate (String or Integer) and the module will tell you wether or not the given input is a valid ID number!
 
 ```javascript
 const gyldig = require('gyldig');
