@@ -1,0 +1,37 @@
+{
+    "name": "gyldig",
+    "version": "1.0.0",
+    "description": "Package for validation of various norwegian identity numbers (ssn, bank account numbers, organisaztion numbers and so on) .",
+    "main": "index.js",
+    "scripts": {
+        "test": "ava",
+        "test:watch": "ava --watch"
+    },
+    "author": "Arien Shibani",
+    "license": "Unlicense License",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/arienshibani/gyldig"
+    },
+    "keywords": [
+        "personnummer",
+        "organisasjonsnummer",
+        "gyldig",
+        "validering",
+        "ssn",
+        "kid",
+        "norwegian",
+        "buglife"
+    ],
+    "homepage": "https://github.com/arienshibani/gyldig",
+    "devDependencies": {
+        "@ava/babel": "^1.0.1",
+        "ava": "^3.15.0"
+    },
+    "ava": {
+        "files": [
+            "tests/**/*"
+        ],
+        "verbose": true
+    }
+}
